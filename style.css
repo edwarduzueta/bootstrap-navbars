@@ -5,3 +5,27 @@
 .brd-logo {
   height: 60px;
 }
+
+/* ===== WOD 2: Morning Brew navbar styles ===== */
+.mbrew-logo {
+  max-height: 46px;
+}
+
+/* Style the nav items exactly as specified */
+.mbrew-menu .nav-item {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 2px;
+  padding-bottom: 0.5rem;
+  color: #E33E19;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  cursor: pointer !important;
+}
+
+/* Active overrides */
+.mbrew-menu .active {
+  padding-top: 0px;
+  color: black;
+}
